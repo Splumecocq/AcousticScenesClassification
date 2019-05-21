@@ -7,7 +7,7 @@ The goal of Acoustic Scene Classification is to classify a test recording into o
 ![ASC schema](https://raw.githubusercontent.com/Splumecocq/AcousticScenesClassification/master/Image/Schema-acoustic-scene-classification.jpg)
 
 In this project the audio signal in input is preprocessed into a spectrogram by short-time Fourier transform [SFTF](https://en.wikipedia.org/wiki/Short-time_Fourier_transform).
-A methodology of supervised machine learning based on [Convolutional Neuronal Network](https://en.wikipedia.org/wiki/Convolutional_neural_network) classified the signal.
+A methodology of **supervised machine learning** based on Convolutional Neuronal Network ([CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network)) classified the signal.
 
 ## Struture
 The directory **Models** contains the CNN modules:
