@@ -12,6 +12,9 @@ A methodology of supervised machine learning based on [Convolutional Neuronal Ne
 ## Struture
 The directory **Models** contains the CNN modules:
 * simpleCNN: simple module to test the process
+* CNN_Dorfer: CNN proposed by CP-JKU team to the DCASE Challenge 2018 Task 1 Subtask A (without the Gaussian Noise)
+* CNN_Dorfer2: CNN proposed by CP-JKU team to the DCASE Challenge 2018 Task 1 Subtask A (with the Gaussian Noise)
+
 
 The directory **Data** contains:
 * the split of train and validation as in the challenge DCASE 2018 (fold2_train.txt and fold2_evaluate.txt)
