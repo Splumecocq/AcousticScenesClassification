@@ -3,8 +3,11 @@
 This project shares the python code used for the challenge [DCASE 2018](http://dcase.community/challenge2018/index).
 
 ## Struture
-The files "modele" contain the CNN module
+The directory **Models** contains the CNN modules.
 
-## Result
+The directory **Utils** contains:
+* progressbar.py: a simple progress to follow the evolution of training process
+* librosa: Convert audio signal to spectrogram with Librosa librairy
+
 
 
