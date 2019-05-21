@@ -2,8 +2,7 @@
 
 This project shares the python code used for the challenge [DCASE 2018](http://dcase.community/challenge2018/index).
 
-![alt text](https://github.com/Splumecocq/AcousticScenesClassification/Image/Schema-acoustic-scene-classification.png)
-
+![alt text](https://raw.githubusercontent.com/Splumecocq/AcousticScenesClassification/master/Image/Schema-acoustic-scene-classification.png)
 
 ## Struture
 The directory **Models** contains the CNN modules:
