@@ -47,7 +47,7 @@ class CNN_Dorfer(torch.nn.Module):
         self.bn10 = nn.BatchNorm2d(336)        
         self.dropout10 = nn.Dropout(0.5)
         
-        self.conv11 = nn.Conv2d(168, 10, kernel_size=1,stride=1,padding=0)
+        self.conv11 = nn.Conv2d(336, 10, kernel_size=1,stride=1,padding=0)
         self.bn11 = nn.BatchNorm2d(10) 
         
         self.avPool = nn.AdaptiveAvgPool2d(output_size=(1,1))
