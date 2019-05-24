@@ -10,8 +10,11 @@ In this project the audio signal in input is preprocessed into a spectrogram by 
 A methodology of **supervised machine learning** based on Convolutional Neuronal Network ([CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network)) classified the signal.
 
 ## Struture
+The program **main.py** launches the training.
+
 The directory **Models** contains the CNN modules:
 * simpleCNN: simple module to test the process
+* simpleCNN_v2: same with a standard conv: conv2D + batchNorm + Relu
 * CNN_Dorfer: CNN proposed by CP-JKU team to the DCASE Challenge 2018 Task 1 Subtask A (without the Gaussian Noise)
 * CNN_Dorfer2: CNN proposed by CP-JKU team to the DCASE Challenge 2018 Task 1 Subtask A (with the Gaussian Noise)
 
@@ -23,6 +26,8 @@ The directory **Data** contains:
 The directory **Utils** contains:
 * audio_to_spectrogram: Convert audio signal to spectrogram with Librosa librairy
 * progressbar.py: a simple progress to follow the evolution of training process
+* save_model: Save a model in a file
+* unzip: extract the zip file of input data
 
 
 
