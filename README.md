@@ -17,6 +17,7 @@ The directory **Models** contains the CNN modules:
 * simpleCNN_v2: same with a standard conv: conv2D + batchNorm + Relu
 * CNN_Dorfer: CNN proposed by CP-JKU team to the DCASE Challenge 2018 Task 1 Subtask A (without the Gaussian Noise)
 * CNN_Dorfer2: CNN proposed by CP-JKU team to the DCASE Challenge 2018 Task 1 Subtask A (with the Gaussian Noise)
+* Xception: Xception modele with variable number of Middle Flow and simplified Exit Flow (one conv2d and average pooling)
 
 
 The directory **Data** contains:
