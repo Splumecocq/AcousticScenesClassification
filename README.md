@@ -21,7 +21,8 @@ The directory **Models** contains the CNN modules:
 
 
 The directory **Data** contains:
-* the split of train and validation as in the challenge DCASE 2018 (fold2_train.txt and fold2_evaluate.txt)
+* the split of train and validation/test as in the challenge DCASE 2018 (fold2_train.txt and fold2_evaluate.txt)
+* the split of initial train in train and validation (fold3_train.txt and fold3_val.txt)
 * mean and standard deviation on train data (mean_train.npy and std_train.npy)
 
 The directory **Utils** contains:
